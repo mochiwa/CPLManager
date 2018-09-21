@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['id',['id',['../de/db1/structCustomer.html#aab7bc5047cc90730c831533e8a3bd47d',1,'Customer::id()'],['../da/d05/structLine.html#a8513c40b77a1b737766d801081ff3b6f',1,'Line::id()'],['../d7/d14/structOrder.html#a4532ecba5ec5d2d0a23be501c3b289dc',1,'Order::id()'],['../de/dd1/structProduct.html#a32e802ac149ad39a7a11acd4e804c407',1,'Product::id()']]],
+  ['initaddress',['initAddress',['../d9/d9b/address_8h.html#a68feb393da727521265be23ca2388232',1,'address.c']]],
+  ['initcustomer',['initCustomer',['../d3/d35/customer_8h.html#aa86ea587d9e42ec5962da9bb1188ad55',1,'customer.c']]],
+  ['initdatetime',['initDateTime',['../db/d96/date_8h.html#aa882d11a79227a852dac3bc64d769d2c',1,'date.c']]],
+  ['initentity',['initEntity',['../d8/d83/entity_8h.html#a52066e87133e49a98f48e99c8df4c970',1,'entity.c']]],
+  ['initline',['initLine',['../d7/d5d/line_8h.html#a311fa2196ff60cade67a83d051b72ef0',1,'line.c']]],
+  ['initorder',['initOrder',['../d1/d58/order_8h.html#af64a79284a0f3a14001dae787f759b3a',1,'order.c']]],
+  ['initproduct',['initProduct',['../dc/daa/product_8h.html#a0704138d297710f576a1552c6b6acdcf',1,'product.c']]],
+  ['initstring',['initString',['../d5/d47/own_8h.html#a15a6485f1bce3f1e3097b848996fd13a',1,'own.c']]],
+  ['integer',['Integer',['../df/d39/structInteger.html',1,'']]],
+  ['isaddressegal',['isAddressEgal',['../d9/d9b/address_8h.html#a654629cfe7a87e0c1302ba2f8554b12c',1,'address.c']]],
+  ['isalpharegex',['isAlphaRegex',['../d5/d47/own_8h.html#ab7681a30adc55320f87a0477619e1346',1,'own.c']]],
+  ['isbiggerthan',['isBiggerThan',['../d5/d47/own_8h.html#a9606493f4f6bc42fa5221b826ec0742f',1,'own.c']]],
+  ['isbissextile',['isBissextile',['../db/d96/date_8h.html#adc9f310031c21a6a11b14ec0d07eb385',1,'date.c']]],
+  ['isdelete',['isDelete',['../de/db1/structCustomer.html#a7e4a2c17b84ba202f918034af5fd502e',1,'Customer::isDelete()'],['../da/d05/structLine.html#a726c5c7f0e5ffa8b43f66f4da5a07d62',1,'Line::isDelete()'],['../d7/d14/structOrder.html#a690f4b874460361be3e91380e659a8d2',1,'Order::isDelete()'],['../de/dd1/structProduct.html#a6253b322638704d1ad4ff846dc22de4a',1,'Product::isDelete()']]],
+  ['isegalproduct',['isEgalProduct',['../dc/daa/product_8h.html#aec6e11557135eb9dc9e965dca725ae1a',1,'product.c']]],
+  ['isenoughtlong',['isEnoughtLong',['../d5/d47/own_8h.html#a2a1722b7c71ec6723a7284b26d188120',1,'own.c']]],
+  ['isentityegal',['isEntityEgal',['../d8/d83/entity_8h.html#abf71680a86b9b7a86ef5680653258777',1,'entity.c']]],
+  ['isfilecontainint',['isFileContainInt',['../d5/d47/own_8h.html#a1714a7a4dec869c35761fa9e573da858',1,'own.c']]],
+  ['isfilecontainsequence',['isFileContainSequence',['../d5/d47/own_8h.html#ada457130da2ca6188c031ef8f9f7314c',1,'own.c']]],
+  ['isorderhaslines',['isOrderHasLines',['../d1/d58/order_8h.html#a4099e41e0ef8f4a32949b06f82c23384',1,'order.c']]],
+  ['isvalid',['isValid',['../d5/d47/own_8h.html#a2bc29203ee9b8cd7040a1afe0f58e3c1',1,'own.c']]]
+];

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PAP_PROJECT:  Fichier source de Header/entity.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PAP_PROJECT
+   &#160;<span id="projectnumber">2.0</span>
+   </div>
+   <div id="projectbrief">Projet de fin d&#39;année pour l&#39;eci</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('d8/d83/entity_8h_source.html','../../');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">entity.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d8/d83/entity_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __ENTITY__H__</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __ENTITY__H__</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <span class="comment">/*******************************************************************************************\</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">&lt;| ////////////////////////////////////////--INCLUDE--//////////////////////////////////////// |&gt;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">  \*******************************************************************************************/</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d47/own_8h.html">own.h</a>&quot;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d96/date_8h.html">date.h</a>&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="comment">/*******************************************************************************************\</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">&lt;| //////////////////////////////////////--CONSTANTE--//////////////////////////////////////// |&gt;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">  \*******************************************************************************************/</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d8/d83/entity_8h.html#a6b20d41d6252e9871430c242cb1a56e7">   29</a></span>&#160;<span class="preprocessor">#define BUFFER_SIZE 50</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="comment">/*******************************************************************************************\</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">&lt;| //////////////////////////////////--Structure|Entité--///////////////////////////////////// |&gt;</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">  \*******************************************************************************************/</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d3/db3/structEntity.html">   42</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="../../d3/db3/structEntity.html">Entity</a></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d3/db3/structEntity.html#af79fcb350df0c8c26a27d06ed7a578ad">   44</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../d3/db3/structEntity.html#af79fcb350df0c8c26a27d06ed7a578ad">sexe</a> ; </div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d3/db3/structEntity.html#a9d15d1b2a3fa58099d204ae1fa083ee6">   45</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../d3/db3/structEntity.html#a9d15d1b2a3fa58099d204ae1fa083ee6">name</a>[<a class="code" href="../../d8/d83/entity_8h.html#a6b20d41d6252e9871430c242cb1a56e7">BUFFER_SIZE</a>]; </div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d3/db3/structEntity.html#a6acaad27839ba04eeb2a3187c006f290">   46</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../d3/db3/structEntity.html#a6acaad27839ba04eeb2a3187c006f290">forename</a>[<a class="code" href="../../d8/d83/entity_8h.html#a6b20d41d6252e9871430c242cb1a56e7">BUFFER_SIZE</a>]; </div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../d3/db3/structEntity.html#a14b0274e945a545205247d5ca6a51870">   48</a></span>&#160;    <a class="code" href="../../d1/d0a/structDateTime.html">DateTime</a> <a class="code" href="../../d3/db3/structEntity.html#a14b0274e945a545205247d5ca6a51870">birthday</a>; </div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}<a class="code" href="../../d3/db3/structEntity.html">Entity</a>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">/*******************************************************************************************\</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">&lt;| //////////////////////////////////////--FONTIONS--///////////////////////////////////////// |&gt;</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">  \*******************************************************************************************/</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">char</span> <a class="code" href="../../d8/d83/entity_8h.html#abf71680a86b9b7a86ef5680653258777">isEntityEgal</a>(<span class="keyword">const</span> <a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity, <span class="keyword">const</span> <a class="code" href="../../d3/db3/structEntity.html">Entity</a> *other);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="comment">/*******************************************************************************************\</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">&lt;| //////////////////////////////////////--PROCEDURES--/////////////////////////////////////// |&gt;</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">  \*******************************************************************************************/</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#a52066e87133e49a98f48e99c8df4c970">initEntity</a>(<a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#aaf8fc96ef9c04ee9c6d33cc7fd964802">makeEntity</a>(<a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#ac020707d3a1d52bcae29bca0f4e83155">cpyEntity</a>(<a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity,<span class="keyword">const</span> <a class="code" href="../../d3/db3/structEntity.html">Entity</a> *src);</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#ade2a142f1353dbaae9d27a15b55a167b">editEntity</a>(<a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity);</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#a42e56e1caf8247e2c6ed2d528dd627d8">printEntity</a>(<span class="keyword">const</span> <a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity);</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#aec21814dd56a5c3213296fc7f84dbb45">writeEntity</a>(FILE *file,<span class="keyword">const</span> <a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity,<span class="keyword">const</span> <span class="keywordtype">char</span> separator);</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d83/entity_8h.html#ab993b7e3366ef3fc0c841f7a5cb811cb">loadEntity</a>(FILE *file,<a class="code" href="../../d3/db3/structEntity.html">Entity</a> *entity,<span class="keyword">const</span> <span class="keywordtype">char</span> separator);</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="entity_8h_html_a52066e87133e49a98f48e99c8df4c970"><div class="ttname"><a href="../../d8/d83/entity_8h.html#a52066e87133e49a98f48e99c8df4c970">initEntity</a></div><div class="ttdeci">void initEntity(Entity *entity)</div><div class="ttdoc">Procédure d&amp;#39;initialisation. </div><div class="ttdef"><b>Definition:</b> entity.c:16</div></div>
+<div class="ttc" id="entity_8h_html_ac020707d3a1d52bcae29bca0f4e83155"><div class="ttname"><a href="../../d8/d83/entity_8h.html#ac020707d3a1d52bcae29bca0f4e83155">cpyEntity</a></div><div class="ttdeci">void cpyEntity(Entity *entity, const Entity *src)</div><div class="ttdoc">Procédure outils. </div><div class="ttdef"><b>Definition:</b> entity.c:40</div></div>
+<div class="ttc" id="entity_8h_html_abf71680a86b9b7a86ef5680653258777"><div class="ttname"><a href="../../d8/d83/entity_8h.html#abf71680a86b9b7a86ef5680653258777">isEntityEgal</a></div><div class="ttdeci">char isEntityEgal(const Entity *entity, const Entity *other)</div><div class="ttdoc">Fonction boolean. </div><div class="ttdef"><b>Definition:</b> entity.c:5</div></div>
+<div class="ttc" id="entity_8h_html_ade2a142f1353dbaae9d27a15b55a167b"><div class="ttname"><a href="../../d8/d83/entity_8h.html#ade2a142f1353dbaae9d27a15b55a167b">editEntity</a></div><div class="ttdeci">void editEntity(Entity *entity)</div><div class="ttdoc">Procédure d&amp;#39;edition. </div><div class="ttdef"><b>Definition:</b> entity.c:48</div></div>
+<div class="ttc" id="structEntity_html_a6acaad27839ba04eeb2a3187c006f290"><div class="ttname"><a href="../../d3/db3/structEntity.html#a6acaad27839ba04eeb2a3187c006f290">Entity::forename</a></div><div class="ttdeci">char forename[BUFFER_SIZE]</div><div class="ttdef"><b>Definition:</b> entity.h:46</div></div>
+<div class="ttc" id="entity_8h_html_a6b20d41d6252e9871430c242cb1a56e7"><div class="ttname"><a href="../../d8/d83/entity_8h.html#a6b20d41d6252e9871430c242cb1a56e7">BUFFER_SIZE</a></div><div class="ttdeci">#define BUFFER_SIZE</div><div class="ttdef"><b>Definition:</b> entity.h:29</div></div>
+<div class="ttc" id="structEntity_html_a9d15d1b2a3fa58099d204ae1fa083ee6"><div class="ttname"><a href="../../d3/db3/structEntity.html#a9d15d1b2a3fa58099d204ae1fa083ee6">Entity::name</a></div><div class="ttdeci">char name[BUFFER_SIZE]</div><div class="ttdef"><b>Definition:</b> entity.h:45</div></div>
+<div class="ttc" id="entity_8h_html_ab993b7e3366ef3fc0c841f7a5cb811cb"><div class="ttname"><a href="../../d8/d83/entity_8h.html#ab993b7e3366ef3fc0c841f7a5cb811cb">loadEntity</a></div><div class="ttdeci">void loadEntity(FILE *file, Entity *entity, const char separator)</div><div class="ttdoc">Procédure de chargement. </div><div class="ttdef"><b>Definition:</b> entity.c:106</div></div>
+<div class="ttc" id="own_8h_html"><div class="ttname"><a href="../../d5/d47/own_8h.html">own.h</a></div><div class="ttdoc">Biblioteque Personnelle. </div></div>
+<div class="ttc" id="structEntity_html"><div class="ttname"><a href="../../d3/db3/structEntity.html">Entity</a></div><div class="ttdoc">Entité Entité </div><div class="ttdef"><b>Definition:</b> entity.h:42</div></div>
+<div class="ttc" id="structDateTime_html"><div class="ttname"><a href="../../d1/d0a/structDateTime.html">DateTime</a></div><div class="ttdoc">Entité Date. </div><div class="ttdef"><b>Definition:</b> date.h:35</div></div>
+<div class="ttc" id="entity_8h_html_aaf8fc96ef9c04ee9c6d33cc7fd964802"><div class="ttname"><a href="../../d8/d83/entity_8h.html#aaf8fc96ef9c04ee9c6d33cc7fd964802">makeEntity</a></div><div class="ttdeci">void makeEntity(Entity *entity)</div><div class="ttdoc">Procédure Création. </div><div class="ttdef"><b>Definition:</b> entity.c:25</div></div>
+<div class="ttc" id="structEntity_html_a14b0274e945a545205247d5ca6a51870"><div class="ttname"><a href="../../d3/db3/structEntity.html#a14b0274e945a545205247d5ca6a51870">Entity::birthday</a></div><div class="ttdeci">DateTime birthday</div><div class="ttdef"><b>Definition:</b> entity.h:48</div></div>
+<div class="ttc" id="date_8h_html"><div class="ttname"><a href="../../db/d96/date_8h.html">date.h</a></div><div class="ttdoc">Entité DateTime. </div></div>
+<div class="ttc" id="structEntity_html_af79fcb350df0c8c26a27d06ed7a578ad"><div class="ttname"><a href="../../d3/db3/structEntity.html#af79fcb350df0c8c26a27d06ed7a578ad">Entity::sexe</a></div><div class="ttdeci">char sexe</div><div class="ttdef"><b>Definition:</b> entity.h:44</div></div>
+<div class="ttc" id="entity_8h_html_a42e56e1caf8247e2c6ed2d528dd627d8"><div class="ttname"><a href="../../d8/d83/entity_8h.html#a42e56e1caf8247e2c6ed2d528dd627d8">printEntity</a></div><div class="ttdeci">void printEntity(const Entity *entity)</div><div class="ttdoc">Procédure d&amp;#39;affichage. </div><div class="ttdef"><b>Definition:</b> entity.c:85</div></div>
+<div class="ttc" id="entity_8h_html_aec21814dd56a5c3213296fc7f84dbb45"><div class="ttname"><a href="../../d8/d83/entity_8h.html#aec21814dd56a5c3213296fc7f84dbb45">writeEntity</a></div><div class="ttdeci">void writeEntity(FILE *file, const Entity *entity, const char separator)</div><div class="ttdoc">Procédure de sauvegarde. </div><div class="ttdef"><b>Definition:</b> entity.c:99</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_9791a719fed70302b85149de9ff5a60f.html">Header</a></li><li class="navelem"><a class="el" href="../../d8/d83/entity_8h.html">entity.h</a></li>
+    <li class="footer">Généré par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>
